@@ -1,0 +1,10 @@
+# Very simple prompt
+
+prompt_default_setup 2>/dev/null
+
+PS1="[%!] %n@%M %S%d%s %# "
+PS2="%_ > "
+PS3='?# '
+PS4='+> '
+
+prompt_opts=( subst cr percent sp )

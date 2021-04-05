@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ln -s $(dirname $0)/.tmux.conf ~/.tmux.conf
+sudo ln -s $(dirname $0)/zsh/prompts/prompt_patrick_setup /usr/share/zsh/functions/Prompts/prompt_patrick_setup
+ln -s /home/patrick/dotfiles/zsh/.zshrc /home/patrick/.zshrc
+ln -s /home/patrick/dotfiles/vim/.vimrc /home/patrick/.vimrc
